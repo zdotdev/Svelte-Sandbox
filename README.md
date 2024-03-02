@@ -218,16 +218,29 @@ Project Link: [https://github.com/zdotdev/Svelte-Sandbox](https://github.com/zdo
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/zdotdev/Svelte-Sandbox.svg?style=for-the-badge
+
 [contributors-url]: https://github.com/zdotdev/Svelte-Sandbox/graphs/contributors
+
 [forks-shield]: https://img.shields.io/github/forks/zdotdev/Svelte-Sandbox.svg?style=for-the-badge
+
 [forks-url]: https://github.com/zdotdev/Svelte-Sandbox/network/members
+
 [stars-shield]: https://img.shields.io/github/stars/zdotdev/Svelte-Sandbox.svg?style=for-the-badge
+
 [stars-url]: https://github.com/zdotdev/Svelte-Sandbox/stargazers
+
 [issues-shield]: https://img.shields.io/github/issues/zdotdev/Svelte-Sandbox.svg?style=for-the-badge
+
 [issues-url]: https://github.com/zdotdev/Svelte-Sandbox/issues
+
 [license-shield]: https://img.shields.io/github/license/zdotdev/Svelte-Sandbox.svg?style=for-the-badge
+
 [license-url]: https://github.com/zdotdev/Svelte-Sandbox/blob/main/LICENSE
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
 [linkedin-url]: https://linkedin.com/in/linkedin_username
+
 [product-screenshot]: images/screenshot.png
