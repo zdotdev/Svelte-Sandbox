@@ -34,10 +34,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Svelte Sandbox</h3>
 
   <p align="center">
-    project_description
+    This repository is about Sveltekit Sandbox. Feel free to fork and learn about svelte.This repository has a various code examples about sveltekit.
     <br />
     <a href="https://github.com/zdotdev/Svelte-Sandbox"><strong>Explore the docs »</strong></a>
     <br />
