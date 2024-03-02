@@ -211,7 +211,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Zedrik M. Ragas - [@twitter_handle](https://twitter.com/twitter_handle) - www.ragaszedrick25@gmail.com
+Zedrik M. Ragas - [@Facebook](https://www.facebook.com/zedsilog) - www.ragaszedrick25@gmail.com
 
 Project Link: [https://github.com/zdotdev/Svelte-Sandbox](https://github.com/zdotdev/Svelte-Sandbox)
 
@@ -241,6 +241,6 @@ Project Link: [https://github.com/zdotdev/Svelte-Sandbox](https://github.com/zdo
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/zedrick-ragas-19a677286/
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: static/svelte%20icon.png
