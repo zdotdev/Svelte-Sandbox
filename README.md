@@ -187,7 +187,68 @@ See the [open issues](https://github.com/zdotdev/Svelte-Sandbox/issues) for a fu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+## Roadmap
+
+- [x] Hello World
+- [x] Project Structure
+- [x] Routing
+- [x] Nested Routes
+- [x] Dynamic Routes
+- [x] Nested Dynamic Routes
+- [x] Catch All Routes
+- [x] Optional Parameters
+- [ ] Route Navigation
+- [ ] Navigating Programmatically
+- [ ] Route Matcher
+- [ ] Route Layout
+- [ ] Layout Groups
+- [ ] Breaking Out of Layouts
+- [ ] Other Files
+- [ ] API Routes
+- [ ] API Get Request
+- [ ] API POST Request
+- [ ] Dynamic API Routes
+- [ ] API Patch Request
+- [ ] API Delete Request
+- [ ] Loading Data
+- [ ] Page Data
+- [ ] Fetch Function
+- [ ] Universal Load Function
+- [ ] Server Load Function
+- [ ] Universal vs. Server Load Function
+- [ ] Using URL Data
+- [ ] Errors and Redirects
+- [ ] Layout Data
+- [ ] Using Parent Data
+- [ ] Using Child Data
+- [ ] Promise Unwrapping
+- [ ] Data Validation
+- [ ] Link Options
+- [ ] Preload Data
+- [ ] Prelaod code
+- [ ] Reoad and No Scroll
+- [ ] Prelaod Programmatically
+- [ ] Page Options
+- [ ] SSR and CSR
+- [ ] Pre-rendering Pages
+- [ ] Pre-rendering API Routes
+- [ ] Pre-rendering Dynamic Routes
+- [ ] Pre-rendering and SSR
+- [ ] Form Actions
+- [ ] Default Form Actions
+- [ ] Named Form Actions
+- [ ] Form Action Validation
+- [ ] Form Action Redirects
+- [ ] Progressive Enhancements
+- [ ] Snapshots
+- [ ] Environment Variables
+- [ ] Server Only Modules
+- [ ] Deploying Sveltekit Application
+
+See the [open issues](https://github.com/zdotdev/Svelte-Sandbox/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.

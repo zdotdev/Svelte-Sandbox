@@ -1,18 +1,14 @@
 <script>
     import { page } from '$app/stores';
-    import { writable } from 'svelte/store';
 
     const location = $page.params.Example;
 
     const locArr = location.split('/');
-    const locArrStore = writable(locArr);
 
     function handleClick(event) {
         event.preventDefault();
 
-        locArrStore.set(location.split('/'));
-
-        window.location.href = '/catchAllRouting/feature/content';
+        window.location.href = `/catchAllRouting/${location}/content`;
     }
 
 </script>
@@ -25,7 +21,7 @@
 
 {#if locArr.length === 1}
     <p>The current location is {location}</p>
-    <a href="/catchAllRouting/feature/content" on:click={handleClick} class="bg-green-200">Try nested catch all</a>
+    <a href="/catchAllRouting/{location}/content" on:click={handleClick} class="bg-green-200">Try nested catch all</a>
 {:else if locArr.length === 2}
     <p>The current location is nested {location}</p>
 {/if}
