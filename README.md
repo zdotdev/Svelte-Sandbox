@@ -202,13 +202,13 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- CONTACT -->
+
 ## Contact
 
 Zedrik M. Ragas - [@Facebook](https://www.facebook.com/zedsilog) - www.ragaszedrick25@gmail.com
