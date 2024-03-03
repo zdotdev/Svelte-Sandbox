@@ -15,14 +15,6 @@
         window.location.href = '/catchAllRouting/feature/content';
     }
 
-    $: {
-        const locArr = $locArrStore;
-        if (locArr.length === 1) {
-            console.log('The current location is', location);
-        } else if (locArr.length === 2) {
-            console.log('The current location is nested', location);
-        }
-    }
 </script>
 
 <p>Catch all routing will take all the URL parameter after the main (/catchAllRouting) location of the catch all [...catchAll]</p>
