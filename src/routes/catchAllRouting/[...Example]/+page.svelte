@@ -19,4 +19,3 @@
 {:else if locArr.length === 2}
     <p>The current location is nested {location}</p>
 {/if}
-<a href="/" class="bg-blue-200">Home</a>

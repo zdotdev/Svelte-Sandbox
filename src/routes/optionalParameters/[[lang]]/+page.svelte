@@ -21,4 +21,3 @@
 <p>Example: <span class="bg-red-200">{greeting}</span>!</p>
 <a href="/optionalParameters/es" class="bg-yellow-200 m-4">Esapanish Language</a>
 <a href="/optionalParameters/fr" class="bg-yellow-200 m-4">French Language</a>
-<a href="/" class="bg-blue-200">Home</a>

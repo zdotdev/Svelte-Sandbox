@@ -18,4 +18,4 @@
 <p>goto is a redirecting function in sveltekit. It will redirect the page when specific condition is met like in placing an order</p>
 <p>Example:</p>
 <p>Timer: {count}</p>
-<button on:click={redirect}>Click this and it will redirect you to the main page after 3 seconds</button>
+<button on:click={redirect} class="bg-pink-200 p-4">Click this and it will redirect you to the main page after 3 seconds</button>

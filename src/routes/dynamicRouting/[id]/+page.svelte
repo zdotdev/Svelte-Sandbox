@@ -11,4 +11,3 @@
 <p>the last directory [productID] must be inside the square bracket</p>
 <br><br>
 <a href="/dynamicRouting/{pageId}/nestedDynamic/{nestedID}" class="underline bg-yellow-200">Dynamic Nested</a>
-<a href="/" class="bg-blue-200">Home</a>
