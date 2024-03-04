@@ -1,14 +1,13 @@
 <script>
     import { page } from '$app/stores';
+    import {goto} from '$app/navigation'
 
     const location = $page.params.Example;
 
     const locArr = location.split('/');
 
-    function handleClick(event) {
-        event.preventDefault();
-
-        window.location.href = `/catchAllRouting/${location}/content`;
+    function reload(){
+        window.location.href = `/catchAllRouting/${location}/content`
     }
 
 </script>
@@ -21,7 +20,9 @@
 
 {#if locArr.length === 1}
     <p>The current location is {location}</p>
-    <a href="/catchAllRouting/{location}/content" on:click={handleClick} class="bg-green-200">Try nested catch all</a>
+    <button on:click={reload}>Test</button>
+    <button on:click={() => {goto(`/catchAllRouting/${location}/content`)}} class="bg-green-200">Try nested catch all</button>
 {:else if locArr.length === 2}
     <p>The current location is nested {location}</p>
 {/if}
+<a href="/" class="bg-blue-200">Home</a>

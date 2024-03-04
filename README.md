@@ -197,7 +197,7 @@ See the [open issues](https://github.com/zdotdev/Svelte-Sandbox/issues) for a fu
 - [x] Nested Dynamic Routes
 - [x] Catch All Routes
 - [x] Optional Parameters
-- [ ] Route Navigation
+- [x] Route Navigation
 - [ ] Navigating Programmatically
 - [ ] Route Matcher
 - [ ] Route Layout

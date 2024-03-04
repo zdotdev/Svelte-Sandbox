@@ -3,3 +3,4 @@
     const {id, nestedID} = $page.params // You can use destructure in declaring the variable. the variable name b=must be the same as the foldenames of the dinamic folder []
 </script>
 <p>Nested Dynamic Routing Example. <br> pageId: {id}, nestedID: {nestedID} </p>
+<a href="/" class="bg-blue-200">Home</a>
