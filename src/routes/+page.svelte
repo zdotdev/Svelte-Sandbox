@@ -1,5 +1,5 @@
 <script>
-    import Test from '../components/test.svelte'
+    import Counter from '../components/counter.svelte'
     const id = "212iiji212"
 </script>
 
@@ -12,5 +12,6 @@
     <a href="/goto" class="m-4 p-4 bg-slate-200 rounded-lg">goto example</a>
     <a href="/routeMatcherExample/1" class="m-4 p-4 bg-slate-200 rounded-lg">Route Matcher</a>
     <a href="/routeLayoutExample" class="m-4 p-4 bg-slate-200 rounded-lg">Route Layout</a>
+    <a href="/LayoutGroup" class="m-4 p-4 bg-slate-200 rounded-lg">Layout Group</a>
 </div>
-<div class="flex justify-center m-4"><Test /></div>
+<div class="flex justify-center m-4"><Counter /></div>
