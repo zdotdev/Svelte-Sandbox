@@ -202,12 +202,12 @@ See the [open issues](https://github.com/zdotdev/Svelte-Sandbox/issues) for a fu
 - [x] Route Matcher
 - [x] Route Layout
 - [x] Layout Groups
-- [ ] Breaking Out of Layouts
-- [ ] Other Files
-- [ ] API Routes
-- [ ] API Get Request
-- [ ] API POST Request
-- [ ] Dynamic API Routes
+- [x] Breaking Out of Layouts
+- [x] Other Files
+- [x] API Routes
+- [x] API Get Request
+- [x] API POST Request
+- [x] Dynamic API Routes
 - [ ] API Patch Request
 - [ ] API Delete Request
 - [ ] Loading Data

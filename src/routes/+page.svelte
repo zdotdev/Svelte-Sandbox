@@ -1,8 +1,10 @@
 <script>
-    import Counter from '../components/counter.svelte'
+    import Counter from '$lib/components/counter.svelte' /* in using components or scripts from the lib directory,
+    you dont have to use './lib' to access it. In sveltekit, you can use a built in alias '$lib' to call 
+    a component */
     const id = "212iiji212"
 </script>
-
+<!-- In sveltekit, +page.svelte is a default naming convention for pages -->
 <h1 class="text-red-900 flex justify-center text-4xl p-4 font-bold">Hello MFs</h1>
 <div class="m-4 p-8 h-fit flex flex-wrap justify-center">
     <a href="/routingExample" class="m-4 p-4 bg-slate-200 rounded-lg">routingExample and nestedRouting</a>
@@ -15,4 +17,4 @@
     <a href="/LayoutGroup" class="m-4 p-4 bg-slate-200 rounded-lg">Layout Group</a>
     <a href="/breakingOutLayout" class="m-4 p-4 bg-slate-200 rounded-lg">Breaking Out Layout</a>
 </div>
-<div class="flex justify-center m-4"><Counter /></div>
+<div class="flex justify-center m-4"><Counter /></div> 
