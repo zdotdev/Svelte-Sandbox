@@ -13,5 +13,6 @@
     <a href="/routeMatcherExample/1" class="m-4 p-4 bg-slate-200 rounded-lg">Route Matcher</a>
     <a href="/routeLayoutExample" class="m-4 p-4 bg-slate-200 rounded-lg">Route Layout</a>
     <a href="/LayoutGroup" class="m-4 p-4 bg-slate-200 rounded-lg">Layout Group</a>
+    <a href="/breakingOutLayout" class="m-4 p-4 bg-slate-200 rounded-lg">Breaking Out Layout</a>
 </div>
 <div class="flex justify-center m-4"><Counter /></div>

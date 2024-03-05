@@ -201,7 +201,7 @@ See the [open issues](https://github.com/zdotdev/Svelte-Sandbox/issues) for a fu
 - [x] Navigating Programmatically
 - [x] Route Matcher
 - [x] Route Layout
-- [ ] Layout Groups
+- [x] Layout Groups
 - [ ] Breaking Out of Layouts
 - [ ] Other Files
 - [ ] API Routes
