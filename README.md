@@ -208,9 +208,9 @@ See the [open issues](https://github.com/zdotdev/Svelte-Sandbox/issues) for a fu
 - [x] API Get Request
 - [x] API POST Request
 - [x] Dynamic API Routes
-- [ ] API Patch Request
-- [ ] API Delete Request
-- [ ] Loading Data
+- [x] API Patch Request
+- [x] API Delete Request
+- [x] Loading Data
 - [ ] Page Data
 - [ ] Fetch Function
 - [ ] Universal Load Function
