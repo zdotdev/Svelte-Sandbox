@@ -19,5 +19,8 @@
     <a href="/APIRoutes" class="m-4 p-4 bg-slate-200 rounded-lg">GET/POST Method Request</a>
     <a href="/APIRequest/commentsAPI" class="m-4 p-4 bg-slate-200 rounded-lg">Dynamic API Request: GET by id, PUT/PATCH, DELETE</a>
     <a href="/pageData" class="m-4 p-4 bg-slate-200 rounded-lg">Page Data</a>
+    <a href="/fetchFunction" class="m-4 p-4 bg-slate-200 rounded-lg">Fetch Function</a>
+    <a href="/serverLoadFunction" class="m-4 p-4 bg-slate-200 rounded-lg">Server Load Function</a>
+    <a href="/universalLoadVSServerLoad" class="m-4 p-4 bg-slate-200 rounded-lg">Universal Load Data vs. Server Load Data</a>
 </div>
 <div class="flex justify-center m-4"><Counter /></div> 

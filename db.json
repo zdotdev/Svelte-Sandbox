@@ -24,5 +24,15 @@
             "price" : 4000,
             "description" : "description 4"
         }
+    ],
+    "postcode": [
+        {
+            "postcode": 1,
+            "description": "description 1"
+        },
+        {
+            "postcode": 2,
+            "description":"description 2"
+        }
     ]
 }
