@@ -4,6 +4,7 @@
 </script>
 <h1>Landing Page</h1>
 
+<p>Page data is the method of accessing Data from universal load function</p>
 <p>{data.title}</p>
 
 {#each prods as product}
