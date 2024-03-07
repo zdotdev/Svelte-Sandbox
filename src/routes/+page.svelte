@@ -25,5 +25,6 @@
     <a href="/usingURLData" class="m-4 p-4 bg-slate-200 rounded-lg">Using URL Data</a>
     <a href="/errorsAndRedirects" class="m-4 p-4 bg-slate-200 rounded-lg">Errors and Redirects</a>
     <a href="/layoutData" class="m-4 p-4 bg-slate-200 rounded-lg">Layout Data</a>
+    <a href="/usingParentData" class="m-4 p-4 bg-slate-200 rounded-lg">Using Parent Data</a>
 </div>
 <div class="flex justify-center m-4"><Counter /></div> 

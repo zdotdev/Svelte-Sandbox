@@ -211,15 +211,15 @@ See the [open issues](https://github.com/zdotdev/Svelte-Sandbox/issues) for a fu
 - [x] API Patch Request
 - [x] API Delete Request
 - [x] Loading Data
-- [ ] Page Data
-- [ ] Fetch Function
-- [ ] Universal Load Function
-- [ ] Server Load Function
-- [ ] Universal vs. Server Load Function
-- [ ] Using URL Data
-- [ ] Errors and Redirects
-- [ ] Layout Data
-- [ ] Using Parent Data
+- [x] Page Data
+- [x] Fetch Function
+- [x] Universal Load Function
+- [x] Server Load Function
+- [x] Universal vs. Server Load Function
+- [x] Using URL Data
+- [x] Errors and Redirects
+- [x] Layout Data
+- [x] Using Parent Data
 - [ ] Using Child Data
 - [ ] Promise Unwrapping
 - [ ] Data Validation
