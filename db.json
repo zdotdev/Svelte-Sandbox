@@ -1,38 +1,38 @@
 {
-    "products":[
-        {
-            "id": 1,
-            "title" : "title 1",
-            "price" : 1000,
-            "description" : "description 1"
-        },
-        {
-            "id": 2,
-            "title" : "title 2",
-            "price" : 2000,
-            "description" : "description 2"
-        },
-        {
-            "id": 3,
-            "title" : "title 3",
-            "price" : 3000,
-            "description" : "description 3"
-        },
-        {
-            "id": 4,
-            "title" : "title 4",
-            "price" : 4000,
-            "description" : "description 4"
-        }
-    ],
-    "postcode": [
-        {
-            "postcode": 1,
-            "description": "description 1"
-        },
-        {
-            "postcode": 2,
-            "description":"description 2"
-        }
-    ]
+	"products": [
+		{
+			"id": 1,
+			"title": "title 1",
+			"price": 1000,
+			"description": "description 1"
+		},
+		{
+			"id": 2,
+			"title": "title 2",
+			"price": 2000,
+			"description": "description 2"
+		},
+		{
+			"id": 3,
+			"title": "title 3",
+			"price": 3000,
+			"description": "description 3"
+		},
+		{
+			"id": 4,
+			"title": "title 4",
+			"price": 4000,
+			"description": "description 4"
+		}
+	],
+	"postcode": [
+		{
+			"postcode": 1,
+			"description": "description 1"
+		},
+		{
+			"postcode": 2,
+			"description": "description 2"
+		}
+	]
 }

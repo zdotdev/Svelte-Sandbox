@@ -1,19 +1,19 @@
 <script>
-    import { page } from '$app/stores'
-    const language = {
-        en: "Hello",
-        es: "Hola",
-        fr: "Bonjour"
-    } 
+	import { page } from '$app/stores';
+	const language = {
+		en: 'Hello',
+		es: 'Hola',
+		fr: 'Bonjour'
+	};
+	
+	let greeting
 
-    let greeting = language.en
-
-    $: {
-        const { lang } = $page.params; // To access the url parameter of a dynamic route. Decalring "en" as a default language
-        greeting = language[lang] || greeting;
-    }
-
+	$: {
+		const { lang = 'en' } = $page.params; // To access the url parameter of a dynamic route. Decalring "en" as a default language
+		greeting = language[lang];
+	}
 </script>
+
 <p>This is an optinal parameter, you can set default value to show</p>
 
 <p>The default language is English</p>

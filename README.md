@@ -1,5 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -7,8 +9,6 @@
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
 -->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -18,14 +18,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -49,8 +48,6 @@
     <a href="https://github.com/zdotdev/Svelte-Sandbox/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -78,87 +75,94 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
 
-* ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
-* ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
+- ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
+- ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 
-* vite
+- vite
+
   ```sh
   npm create vite@latest
   ```
 
-* Svelte
+- Svelte
+
   ```sh
   npm create svelte@latest app-name
   ```
 
-* Tailwind CSS
+- Tailwind CSS
+
   ```sh
   npm install -D tailwindcss postcss autoprefixer
   npx tailwindcss init -p
   ```
+
   svelte.onfig.js
+
   ```js
   import adapter from '@sveltejs/adapter-auto';
   import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
   /** @type {import('@sveltejs/kit').Config} */
-    const config = {
-      kit: {
-        adapter: adapter()
-      },
-      preprocess: vitePreprocess()
-    };
-    export default config;
+  const config = {
+  	kit: {
+  		adapter: adapter()
+  	},
+  	preprocess: vitePreprocess()
+  };
+  export default config;
   ```
+
   tailwind.onfig.js
+
   ```js
   /** @type {import('tailwindcss').Config} */
-    export default {
-      content: ['./src/**/*.{html,js,svelte,ts}'],
-      theme: {
-        extend: {}
-      },
-      plugins: []
-    };
+  export default {
+  	content: ['./src/**/*.{html,js,svelte,ts}'],
+  	theme: {
+  		extend: {}
+  	},
+  	plugins: []
+  };
   ```
+
   app.css
+
   ```css
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
   ```
+
   +layout.svelte
+
   ```svelte
   <script>
-  import "../app.css";
+  	import '../app.css';
   </script>
 
   <slot />
   ```
+
 ### Installation
 
 1. Clone the repo
@@ -166,9 +170,11 @@ This is an example of how to list things you need to use the software and how to
    git clone https://github.com/zdotdev/Svelte-Sandbox.git
    ```
 2. Change diretory
-  ```sh
-  cd "Svelte-Sandbox"
-  ```
+
+```sh
+cd "Svelte-Sandbox"
+```
+
 3. Install NPM packages
    ```sh
    npm i
@@ -177,6 +183,7 @@ This is an example of how to list things you need to use the software and how to
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 Type `npm run dev` to start the app.
@@ -281,27 +288,15 @@ Project Link: [https://github.com/zdotdev/Svelte-Sandbox](https://github.com/zdo
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/zdotdev/Svelte-Sandbox.svg?style=for-the-badge
-
 [contributors-url]: https://github.com/zdotdev/Svelte-Sandbox/graphs/contributors
-
 [forks-shield]: https://img.shields.io/github/forks/zdotdev/Svelte-Sandbox.svg?style=for-the-badge
-
 [forks-url]: https://github.com/zdotdev/Svelte-Sandbox/network/members
-
 [stars-shield]: https://img.shields.io/github/stars/zdotdev/Svelte-Sandbox.svg?style=for-the-badge
-
 [stars-url]: https://github.com/zdotdev/Svelte-Sandbox/stargazers
-
 [issues-shield]: https://img.shields.io/github/issues/zdotdev/Svelte-Sandbox.svg?style=for-the-badge
-
 [issues-url]: https://github.com/zdotdev/Svelte-Sandbox/issues
-
 [license-shield]: https://img.shields.io/github/license/zdotdev/Svelte-Sandbox.svg?style=for-the-badge
-
 [license-url]: https://github.com/zdotdev/Svelte-Sandbox/blob/main/LICENSE
-
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-
 [linkedin-url]: https://www.linkedin.com/in/zedrick-ragas-19a677286/
-
 [product-screenshot]: static/svelte%20icon.png

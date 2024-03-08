@@ -1,9 +1,9 @@
 <script>
-    export let data
-    const product = data.products
+	export let data;
+	const product = data.products;
 </script>
 
 <ul>
-    <li>{product.title} - ${product.price}</li>
-    <p>{product.description}</p>
+	<li>{product.title} - ${product.price}</li>
+	<p>{product.description}</p>
 </ul>

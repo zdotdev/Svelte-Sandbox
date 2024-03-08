@@ -1,21 +1,28 @@
 <script>
-    import {goto} from '$app/navigation' // goto change the content of the dom when specific condition/s is or are met.
+	import { goto } from '$app/navigation'; // goto change the content of the dom when specific condition/s is or are met.
 
-    let count = 3
-    function redirect () {
-        setTimeout(() => {
-            goto('/')
-        }, 3000)
-        for (let i = 3; i >= 0; i--) {
-            setTimeout(() => {
-                count = i
-            },(3 - i) * 1000)
-        }
-    }
-
+	let count = 3;
+	function redirect() {
+		setTimeout(() => {
+			goto('/');
+		}, 3000);
+		for (let i = 3; i >= 0; i--) {
+			setTimeout(
+				() => {
+					count = i;
+				},
+				(3 - i) * 1000
+			);
+		}
+	}
 </script>
 
-<p>goto is a redirecting function in sveltekit. It will redirect the page when specific condition is met like in placing an order</p>
+<p>
+	goto is a redirecting function in sveltekit. It will redirect the page when specific condition is
+	met like in placing an order
+</p>
 <p>Example:</p>
 <p>Timer: {count}</p>
-<button on:click={redirect} class="bg-pink-200 p-4">Click this and it will redirect you to the main page after 3 seconds</button>
+<button on:click={redirect} class="bg-pink-200 p-4"
+	>Click this and it will redirect you to the main page after 3 seconds</button
+>

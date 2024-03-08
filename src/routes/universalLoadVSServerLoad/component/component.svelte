@@ -1,5 +1,5 @@
 <script>
-    export let prods // the props name must be the same as export
+	export let prods; // the props name must be the same as export
 </script>
 
 <h2>{prods.title}</h2>
