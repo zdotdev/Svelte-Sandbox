@@ -7,7 +7,7 @@
 
 <!-- In sveltekit, +page.svelte is a default naming convention for pages -->
 <h1 class="text-red-900 flex justify-center text-4xl p-4 font-bold">Sveltekit Sandbox</h1>
-<div class="m-4 p-8 h-fit flex flex-wrap justify-center">
+<div class="p-8 h-fit flex flex-wrap justify-center">
 	<a href="/routingExample" class="m-4 p-4 bg-slate-200 rounded-lg"
 		>routingExample and nestedRouting</a
 	>
@@ -38,5 +38,6 @@
 	<a href="/layoutData" class="m-4 p-4 bg-slate-200 rounded-lg">Layout Data</a>
 	<a href="/usingParentData" class="m-4 p-4 bg-slate-200 rounded-lg">Using Parent Data</a>
 	<a href="/usingChildData" class="m-4 p-4 bg-slate-200 rounded-lg">Using Child Data</a>
+	<a href="/promiseUnwrapping" class="m-4 p-4 bg-slate-200 rounded-lg">Promise Unwrapping</a>
 </div>
 <div class="flex justify-center m-4"><Counter /></div>

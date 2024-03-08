@@ -9,11 +9,10 @@
 <!-- To add header -->
 <Header />
 <svelte:head>
-	<title>{$page.data.headTitle} || Svelte Sandbox</title> <!-- to access head title by using child data -->
+	<title>{$page.data.headTitle || 'Svelte Sandbox'}</title> <!-- to access head title by using child data -->
 </svelte:head>
-<h1>{$page.data.notification}</h1> <!-- Accessing child layout notification data -->
-<h1>Hi {data.username}</h1>
-<h1 class="flex justify-center">Notification banner</h1> <!-- Using child data -->
+<h1 class="flex justify-center text-2xl p-4 mb-4 font-bold bg-green-200">{$page.data.notification}</h1> <!-- Accessing child layout notification data -->
+<h1 class="flex justify-center text-2xl font-extrabold">Hi {data.username}</h1>
 <slot />
 <!-- to add footer -->
 <Footer />
