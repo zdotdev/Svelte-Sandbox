@@ -14,7 +14,10 @@
     // }
 
 </script>
-
+<p>Data invalidation is the way of updating dom by using invalidate. It deletes the current cache and re-ren the load function in this page,
+    either +layout.js, +page.js, or +page.server.js. It keeps the dom up to date.
+</p>
+<strong>Change the value in the stock at db.json to test</strong>
 <div class="bg-red-200 flex gap-4 w-fit p-4 m-4 rounded-lg">
     {#each stocks as s}
         <h1>{s.symbol} - ${s.price}</h1>
