@@ -41,5 +41,9 @@
 	<a href="/promiseUnwrapping" class="m-4 p-4 bg-slate-200 rounded-lg">Promise Unwrapping</a>
 	<a href="/dataInvalidation" class="m-4 p-4 bg-slate-200 rounded-lg">Data Invalidation</a>
 	<a href="/preloadData" class="m-4 p-4 bg-slate-200 rounded-lg">Preload Data</a>
+	<a href="/preloadCode" class="m-4 p-4 bg-slate-200 rounded-lg">Preload Code</a>
+	<a href="/reloadAndNoScroll" class="m-4 p-4 bg-slate-200 rounded-lg">Reload and No Scroll</a>
+	<a href="/preloadProgrammatically" class="m-4 p-4 bg-slate-200 rounded-lg">Preload Programmatically</a>
+	<a href="/ssrAndCsr" class="m-4 p-4 bg-slate-200 rounded-lg">SSR and CSR</a>
 </div>
 <div class="flex justify-center m-4"><Counter /></div>
