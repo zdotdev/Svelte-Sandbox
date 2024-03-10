@@ -40,5 +40,6 @@
 	<a href="/usingChildData" class="m-4 p-4 bg-slate-200 rounded-lg">Using Child Data</a>
 	<a href="/promiseUnwrapping" class="m-4 p-4 bg-slate-200 rounded-lg">Promise Unwrapping</a>
 	<a href="/dataInvalidation" class="m-4 p-4 bg-slate-200 rounded-lg">Data Invalidation</a>
+	<a href="/preloadData" class="m-4 p-4 bg-slate-200 rounded-lg">Preload Data</a>
 </div>
 <div class="flex justify-center m-4"><Counter /></div>
