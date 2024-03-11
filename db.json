@@ -37,7 +37,7 @@
 	],
 	"most-active-stock": {
 		"symbol": "STOCK A",
-		"price" : 100
+		"price": 100
 	},
 	"top-gaining-stock": {
 		"symbol": "STOCK B",
@@ -47,17 +47,21 @@
 		"symbol": "STOCK C",
 		"price": 300
 	},
-	"stocks":[{
-		"symbol": "STOCK D",
-		"price": 400,
-		"id": "69fd"
-	},{
-		"symbol": "STOCK E",
-		"price": 500,
-		"id": "70fd"
-	},{
-		"symbol":"STOCK F",
-		"price": 600,
-		"id": "71fd"
-	}]
+	"stocks": [
+		{
+			"symbol": "STOCK D",
+			"price": 400,
+			"id": "69fd"
+		},
+		{
+			"symbol": "STOCK E",
+			"price": 500,
+			"id": "70fd"
+		},
+		{
+			"symbol": "STOCK F",
+			"price": 600,
+			"id": "71fd"
+		}
+	]
 }

@@ -5,8 +5,8 @@
 		es: 'Hola',
 		fr: 'Bonjour'
 	};
-	
-	let greeting
+
+	let greeting;
 
 	$: {
 		const { lang = 'en' } = $page.params; // To access the url parameter of a dynamic route. Decalring "en" as a default language

@@ -2,11 +2,15 @@
 	import Counter from '$lib/components/counter.svelte'; /* in using components or scripts from the lib directory,
     you dont have to use './lib' to access it. In sveltekit, you can use a built in alias '$lib' to call 
     a component */
+
+	export let data
+
 	const id = '212iiji212';
 </script>
 
 <!-- In sveltekit, +page.svelte is a default naming convention for pages -->
 <h1 class="text-red-900 flex justify-center text-4xl p-4 font-bold">Sveltekit Sandbox</h1>
+<h1 class="flex justify-center text-2xl font-semibold">Prerendered(static) time: {data.time}</h1>
 <div class="p-8 h-fit flex flex-wrap justify-center">
 	<a href="/routingExample" class="m-4 p-4 bg-slate-200 rounded-lg"
 		>routingExample and nestedRouting</a
@@ -43,7 +47,12 @@
 	<a href="/preloadData" class="m-4 p-4 bg-slate-200 rounded-lg">Preload Data</a>
 	<a href="/preloadCode" class="m-4 p-4 bg-slate-200 rounded-lg">Preload Code</a>
 	<a href="/reloadAndNoScroll" class="m-4 p-4 bg-slate-200 rounded-lg">Reload and No Scroll</a>
-	<a href="/preloadProgrammatically" class="m-4 p-4 bg-slate-200 rounded-lg">Preload Programmatically</a>
+	<a href="/preloadProgrammatically" class="m-4 p-4 bg-slate-200 rounded-lg"
+		>Preload Programmatically</a
+	>
 	<a href="/ssrAndCsr" class="m-4 p-4 bg-slate-200 rounded-lg">SSR and CSR</a>
+	<a href="/prerenderingPages" class="m-4 p-4 bg-slate-200 rounded-lg">Prerendering Pages</a>
+	<a href="/prerenderingApiRoutes" class="m-4 p-4 bg-slate-200 rounded-lg">Prerendering API Routes</a>
+	<a href="/prerenderingDynamicRoutes" class="m-4 p-4 bg-slate-200 rounded-lg">Prerendering Dynamic Routes</a>
 </div>
 <div class="flex justify-center m-4"><Counter /></div>

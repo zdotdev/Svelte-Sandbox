@@ -1,8 +1,8 @@
 <script>
-    export let product
+	export let product;
 </script>
 
 <div>
-    <h1>{product.title} - ${product.price}</h1>
-    <p>{product.description}</p>
+	<h1>{product.title} - ${product.price}</h1>
+	<p>{product.description}</p>
 </div>
