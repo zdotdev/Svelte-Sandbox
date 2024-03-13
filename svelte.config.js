@@ -9,7 +9,9 @@ const config = {
 		adapter: adapter(),
 		prerender: {
 			crawl: true, // this is the default. If false, youu have to manually add the directories in entry
-			entries: ['/'] /* if crawl is true, starting from the main route "/", all the +page.js or +page.server.js 
+			entries: [
+				'/'
+			] /* if crawl is true, starting from the main route "/", all the +page.js or +page.server.js 
 			with "export const prerender = true" will be prerendered */
 		}
 	}

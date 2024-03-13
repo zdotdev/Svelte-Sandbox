@@ -5,7 +5,6 @@ export const load = async (loadEvent) => {
 	} catch (err) {
 		console.log(err);
 	}
-	
 };
 
 export const ssr = true; // boolean true or false

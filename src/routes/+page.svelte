@@ -3,7 +3,7 @@
     you dont have to use './lib' to access it. In sveltekit, you can use a built in alias '$lib' to call 
     a component */
 
-	export let data
+	export let data;
 
 	const id = '212iiji212';
 </script>
@@ -11,7 +11,7 @@
 <!-- In sveltekit, +page.svelte is a default naming convention for pages -->
 <h1 class="text-red-900 flex justify-center text-4xl p-4 font-bold">Sveltekit Sandbox</h1>
 <h1 class="flex justify-center text-2xl font-semibold">Prerendered(static) time: {data.time}</h1>
-<div class="p-8 h-fit flex flex-wrap justify-center">
+<div class="p-8 flex flex-wrap justify-center">
 	<a href="/routingExample" class="m-4 p-4 bg-slate-200 rounded-lg"
 		>routingExample and nestedRouting</a
 	>
@@ -52,7 +52,25 @@
 	>
 	<a href="/ssrAndCsr" class="m-4 p-4 bg-slate-200 rounded-lg">SSR and CSR</a>
 	<a href="/prerenderingPages" class="m-4 p-4 bg-slate-200 rounded-lg">Prerendering Pages</a>
-	<a href="/prerenderingApiRoutes" class="m-4 p-4 bg-slate-200 rounded-lg">Prerendering API Routes</a>
-	<a href="/prerenderingDynamicRoutes" class="m-4 p-4 bg-slate-200 rounded-lg">Prerendering Dynamic Routes</a>
+	<a href="/prerenderingApiRoutes" class="m-4 p-4 bg-slate-200 rounded-lg"
+		>Prerendering API Routes</a
+	>
+	<a href="/prerenderingDynamicRoutes" class="m-4 p-4 bg-slate-200 rounded-lg"
+		>Prerendering Dynamic Routes</a
+	>
+	<a href="/formActions/auth" class="m-4 p-4 bg-slate-200 rounded-lg">Form Actions</a>
+	<a href="/defaultFormActions/auth" class="m-4 p-4 bg-slate-200 rounded-lg">Default Form Actions</a
+	>
+	<a href="/namedFormActions" class="m-4 p-4 bg-slate-200 rounded-lg">Named Form Actions</a>
+	<a href="/formActionValidation" class="m-4 p-4 bg-slate-200 rounded-lg">Form Action Validation</a>
+	<a href="/formRedirect" class="m-4 p-4 bg-slate-200 rounded-lg">Form Action Redirects</a>
+	<a href="/snapshot" class="m-4 p-4 bg-slate-200 rounded-lg">Snapshot</a>
+	<a href="/environmentVariables" class="m-4 p-4 bg-slate-200 rounded-lg">Environment Variables</a>
+	<a href="/serverOnlyModules" class="m-4 p-4 bg-slate-200 rounded-lg">Server Only Modules</a>
+	<a
+		href="https://www.youtube.com/watch?v=dxFDUpPjfRc&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=56"
+		target="_blank"
+		class="m-4 p-4 bg-slate-200 rounded-lg">Deploying Sveltekit Application</a
+	>
 </div>
 <div class="flex justify-center m-4"><Counter /></div>

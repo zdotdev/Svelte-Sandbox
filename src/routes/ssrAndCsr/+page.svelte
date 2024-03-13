@@ -124,7 +124,10 @@
 	</p>
 </div>
 
-<p>The good thing about SSR and CSR is the seo, it makes the site more visible. <strong>It is achieved by adding 
-	"export const ssr = true or false and export const csr = true or false in main +page.js"
-</strong></p>
+<p>
+	The good thing about SSR and CSR is the seo, it makes the site more visible. <strong
+		>It is achieved by adding "export const ssr = true or false and export const csr = true or false
+		in main +page.js"
+	</strong>
+</p>
 <a href="/ssrAndCsr/1" class="bg-slate-200 m-4">Example</a>

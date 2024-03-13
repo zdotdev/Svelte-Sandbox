@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/zdotdev/Svelte-Sandbox">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="static/svelte icon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Svelte Sandbox</h3>
@@ -186,7 +186,7 @@ cd "Svelte-Sandbox"
 
 ## Usage
 
-Type `npm run dev` to start the app.
+Type `npm start` to start the app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,30 +227,30 @@ See the [open issues](https://github.com/zdotdev/Svelte-Sandbox/issues) for a fu
 - [x] Errors and Redirects
 - [x] Layout Data
 - [x] Using Parent Data
-- [ ] Using Child Data
-- [ ] Promise Unwrapping
-- [ ] Data Validation
-- [ ] Link Options
-- [ ] Preload Data
-- [ ] Prelaod code
-- [ ] Reoad and No Scroll
-- [ ] Prelaod Programmatically
-- [ ] Page Options
-- [ ] SSR and CSR
-- [ ] Pre-rendering Pages
-- [ ] Pre-rendering API Routes
-- [ ] Pre-rendering Dynamic Routes
-- [ ] Pre-rendering and SSR
-- [ ] Form Actions
-- [ ] Default Form Actions
-- [ ] Named Form Actions
-- [ ] Form Action Validation
-- [ ] Form Action Redirects
-- [ ] Progressive Enhancements
-- [ ] Snapshots
-- [ ] Environment Variables
-- [ ] Server Only Modules
-- [ ] Deploying Sveltekit Application
+- [x] Using Child Data
+- [x] Promise Unwrapping
+- [x] Data Validation
+- [x] Link Options
+- [x] Preload Data
+- [x] Prelaod code
+- [x] Reoad and No Scroll
+- [x] Prelaod Programmatically
+- [x] Page Options
+- [x] SSR and CSR
+- [x] Pre-rendering Pages
+- [x] Pre-rendering API Routes
+- [x] Pre-rendering Dynamic Routes
+- [x] Pre-rendering and SSR
+- [x] Form Actions
+- [x] Default Form Actions
+- [x] Named Form Actions
+- [x] Form Action Validation
+- [x] Form Action Redirects
+- [x] Progressive Enhancements
+- [x] Snapshots
+- [x] Environment Variables
+- [x] Server Only Modules
+- [x] Deploying Sveltekit Application
 
 See the [open issues](https://github.com/zdotdev/Svelte-Sandbox/issues) for a full list of proposed features (and known issues).
 
@@ -299,4 +299,4 @@ Project Link: [https://github.com/zdotdev/Svelte-Sandbox](https://github.com/zdo
 [license-url]: https://github.com/zdotdev/Svelte-Sandbox/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/zedrick-ragas-19a677286/
-[product-screenshot]: static/svelte%20icon.png
+[product-screenshot]: static/Screenshot%20(365).png

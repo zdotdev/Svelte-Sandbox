@@ -9,7 +9,7 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"serv": "json-server --watch db.json --port 3000",
-		"test": "concurrently \"json-server --watch db.json --port 3000\" \"vite dev\""
+		"start": "concurrently \"json-server --watch db.json --port 3000\" \"vite dev\""
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
