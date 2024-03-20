@@ -3,17 +3,12 @@
 
 	let count = 3;
 	function redirect() {
-		setTimeout(() => {
-			goto('/');
-		}, 3000);
-		for (let i = 3; i >= 0; i--) {
-			setTimeout(
-				() => {
-					count = i;
-				},
-				(3 - i) * 1000
-			);
-		}
+		setInterval(() => {
+			count--;
+			if(count == 0){
+				goto('/')
+			}
+		}, 1000);
 	}
 </script>
 
